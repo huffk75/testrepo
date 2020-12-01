@@ -23,3 +23,16 @@
     color: #393e46;
     size: 13px;
   }
+
+  td {
+  border: 1px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  }
+
+  table {
+    table-layout: auto;
+    width: 120px;
+    border: 1px solid black
+  }
