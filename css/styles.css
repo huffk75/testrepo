@@ -1,38 +1,137 @@
-  body {
-    background-color: #f9e0ae;
+body {
+  text-align: center;
+}
+
+hr {
+  border: dotted  #eaf6f6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+h1 {
+color: #39311d;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+}
+
+h2 {
+  font-family: 'Padauk', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #39311d;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #39311d;
+  font-family: 'Padauk', sans-serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+h4 {
+  color: #39311d;
+  font-family: 'Padauk', sans-serif;
+  font-size: 1.35rem;
+  font-weight: normal;
+}
+
+p {
+  color: #39311d;
+  font-family: 'Padauk', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom_container {
+  margin: 100px auto 100px auto;
+  background-color: #d8ac9c;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  padding: 50px 0 20px 0;
+}
+
+.top_container {
+  background-color: #d8ac9c;
+  position: relative;
+  padding-top: 100px;
+  font-family: "Padauk", sans-serif;
+}
+
+.middle_container {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align:left;
+  line-height: 2;
+}
+
+.profile {
+  margin: 100px 25% 100px 25%;
+  line-height: 2;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align:left;
   }
 
-  hr {
-    width: 7%;
-    color: gray;
-    border-style: dotted none none none;
-    border-width: 5px;
+  .CMe_ZDC {
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     color: #000000;
+     font-family: Verdana;
+     font-size: 14px;
+     font-weight: 200;
+     padding: 7px;
+     background-color: #D0E8F2;
+     text-shadow: 1px 1px 20px #000000;
+     text-decoration: none;
+     display: inline-block;
+     cursor: pointer;
+     text-align: center;
   }
 
-  h2 {
-    color: #c24914;
-    size: 14px;
+  .CMe_ZDC:hover {
+     background: #D0E8F2;
+     border: solid #337FED 1px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     border-radius: 20px;
+     text-decoration: none;
   }
 
-  h1 {
-    color: #682c0e;
-    size: 18px;
-  }
+img {
+  width: 35%;
+}
 
-  p {
-    color: #393e46;
-    size: 13px;
-  }
+.code-img {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
 
-  td {
-  border: 1px solid black;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  }
+.fallout-img {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
 
-  table {
-    table-layout: auto;
-    width: 120px;
-    border: 1px solid black
-  }
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+  width: 125px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  width: 125px;
+}
